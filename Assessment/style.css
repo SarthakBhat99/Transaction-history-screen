@@ -1,0 +1,507 @@
+*{
+    max-width:400px !important;
+    margin:auto;
+    margin-top:4%;
+    font-family:sans-serif;
+    letter-spacing:0.5px;
+}
+
+.banner{
+
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:30px 0;
+    Display:inline-block;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo{
+    display: inline-block;  
+    margin-left:10px;
+    width:40px;
+    cursor: pointer;
+}
+.navbar p1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.msg-header{
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+    border-bottom:none;
+    display:inline-block;
+    background-color:#fff;
+}
+
+/* transactions part ***********/
+
+.content{
+    width:100%;
+    position:absolute;
+    top:25%;
+    color:rgb(14, 12, 12);
+z-index:1;
+}
+.content h1{
+    margin:20px auto;
+    font-weight: 100px;
+    line-height: 25px;
+}
+
+/*transaction page ***********/
+
+button{
+    width:200px;
+    float:left;
+    top: -600px;
+    padding:15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:transparent;
+    color:black;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background:#13fa45;
+    height:100%;
+    width: 0;
+    border-radius: 5px;
+    position: absolute;
+    left:0;
+    top:-100%;
+    bottom:0;
+    z-index:1;
+    transition: 0.9s;
+}
+
+button:hover span{
+    width: 100%;
+}
+border:hover{
+    border:none;
+}
+
+
+/* transaction details ******************* */
+
+.transc-txt{
+    width:100%;
+    position:absolute;
+    top:37%;
+    color:rgb(14, 12, 12);
+z-index:1;
+}
+.transc-txt p{
+margin:20px auto;
+font-size: 10px;
+padding: 0 10px; 
+float:left;
+font-weight: 100px;
+line-height: 25px;
+}
+
+
+.content-1{
+    width:100%;
+    position:absolute;
+    top:25%;
+    color:rgb(14, 12, 12);
+z-index:1;
+}
+.content-1 h1{
+    margin:20px auto;
+    font-weight: 100px;
+    line-height: 25px;
+}
+button-btn{ width:200px;
+    float:right;
+    top: -600px;
+    padding:15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:transparent;
+    color:black;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+button-btn:hover span{
+    width: 100%;
+}
+border-btn:hover{
+    border:none;
+}
+button-btn-2{
+    width:200px;
+    float:left;
+    top: -600px;
+    padding:15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:transparent;
+    color:black;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+button-btn-2:hover span{
+    width: 100%;
+}
+border-btn-2:hover{
+    border:none;
+}
+button-btn-3{
+    width:200px;
+    float:right;
+    top: -600px;
+    padding:15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:transparent;
+    color:black;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+button-btn-3:hover span{
+    width: 100%;
+}
+border-btn-3:hover{
+    border:none;
+}
+
+/*transaction 1.html******************************************************** */
+
+.transc-detail{
+        width:100%;
+        position:absolute;
+        top:50%;
+        color:rgb(13, 152, 187);
+    
+
+}
+
+.transc-detail h1{
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.transc-detail p1 {
+    margin:20px auto;
+    font-weight: 100px;
+    line-height: 25px;
+    align-items: center;
+
+}
+
+button-tr1{
+    width:200px;
+    top: -450px;
+    padding:20px 60px;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:#06e637;
+    color:#fff;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+button-tr1-bck{
+    width:200px;
+    top: -50px;
+    padding:10px 60px;
+    text-align: center;
+    margin:30px 115px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:#06270d;
+    color:#fff;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+/* transaction 2.html.........*/
+.transc-detail-2{
+    width:100%;
+    position:absolute;
+    top:50%;
+    color:rgb(13, 152, 187);
+
+
+}
+
+.transc-detail-2 h1{
+font-size: 30px;
+margin-top: 80px;
+}
+
+.transc-detail-2 p1 {
+margin:20px auto;
+font-weight: 100px;
+line-height: 25px;
+align-items: center;
+
+}
+
+button-tr-2{
+width:200px;
+top: -450px;
+padding:20px 60px;
+text-align: center;
+margin:20px 10px;
+border-radius: 30px;
+font-weight: bold;
+border: 2px solid #009688;
+background:#06e637;
+color:#fff;
+cursor:pointer;
+position: relative;
+overflow: hidden;
+}
+
+button-tr1-bck-2{
+width:200px;
+top: -50px;
+padding:10px 60px;
+text-align: center;
+margin:30px 115px;
+border-radius: 10px;
+font-weight: bold;
+border: 2px solid #009688;
+background:#06270d;
+color:#fff;
+cursor:pointer;
+position: relative;
+overflow: hidden;
+}
+
+/* transaction 3.html...........................................................*/
+.transc-detail-3{
+    width:100%;
+    position:absolute;
+    top:50%;
+    color:rgb(13, 152, 187);
+
+
+}
+
+.transc-detail-3 h1{
+font-size: 30px;
+margin-top: 80px;
+}
+
+.transc-detail-3 p1 {
+margin:20px auto;
+font-weight: 100px;
+line-height: 25px;
+align-items: center;
+
+}
+
+button-tr-3{
+width:200px;
+top: -450px;
+padding:20px 60px;
+text-align: center;
+margin:20px 10px;
+border-radius: 30px;
+font-weight: bold;
+border: 2px solid #009688;
+background:#06e637;
+color:#fff;
+cursor:pointer;
+position: relative;
+overflow: hidden;
+}
+
+button-tr1-bck-3{
+width:200px;
+top: -50px;
+padding:10px 60px;
+text-align: center;
+margin:30px 115px;
+border-radius: 10px;
+font-weight: bold;
+border: 2px solid #009688;
+background:#06270d;
+color:#fff;
+cursor:pointer;
+position: relative;
+overflow: hidden;
+}
+
+/* transaction 4.html...........................................................*/
+.transc-detail-4{
+    width:100%;
+    position:absolute;
+    top:50%;
+    color:rgb(13, 152, 187);
+
+
+}
+
+.transc-detail-4 h1{
+font-size: 30px;
+margin-top: 80px;
+}
+
+.transc-detail-4 p1 {
+margin:20px auto;
+font-weight: 100px;
+line-height: 25px;
+align-items: center;
+
+}
+
+button-tr-4{
+width:200px;
+top: -450px;
+padding:20px 60px;
+text-align: center;
+margin:20px 10px;
+border-radius: 30px;
+font-weight: bold;
+border: 2px solid #009688;
+background:#06e637;
+color:#fff;
+cursor:pointer;
+position: relative;
+overflow: hidden;
+}
+
+button-tr1-bck-4{
+width:200px;
+top: -50px;
+padding:10px 60px;
+text-align: center;
+margin:30px 115px;
+border-radius: 10px;
+font-weight: bold;
+border: 2px solid #009688;
+background:#06270d;
+color:#fff;
+cursor:pointer;
+position: relative;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+img{
+    max-width:100%;
+border-radius:50%;
+}
+
+.msg-header{
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+    border-bottom:none;
+    display:inline-block;
+    background-color:#007bff;
+
+}
+.msg-header-img{
+    border-radius:50%;
+    width:40px;
+    margin-left:5%;
+    margin-top: 5%;
+    float:left;
+}
+.active
+{
+    width: 120px;
+    float: left;
+    margin-top: 51px;
+    
+}
+.active h4{
+    font-size:12px;
+    margin: left 10px;
+    color:#fff;
+}
+.active h6{
+    font-size:10px;
+    margin-left:2%;
+    line-height:1px;
+    color:#fff;
+}
+
+.date{
+ width:50%;
+margin:auto;
+ align-items: center;
+ color:black;
+}
+.date p{
+    margin:20px auto;
+    font-weight: 2px;
+    line-height: 20px;
+
+}
+button{
+    width:300px;
+    padding:15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:transparent;
+    color:black;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background:#009688;
+    height:100%;
+    width: 0;
+    border-radius: 5px;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    z-index:-1;
+    transition: 0.9s;
+}
